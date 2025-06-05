@@ -1,17 +1,22 @@
 ## Pendahuluan dan Definisi Masalah
 Activity selection problem merupakan masalah optimasi klasik dalam ilmu komputer. Kita diberikan sejumlah aktivitas yang masing-masing didefinisikan dengan waktu mulai dan waktu selesai. Dua aktivitas dikatakan kompatibel jika mereka tidak tumpang tindih secara waktu, artinya salah satu aktivitas selesai sebelum aktivitas lainnya dimulai.
 
+
+
 ## Konsep Dasar Algoritma Greedy
 Algoritma greedy adalah strategi pemecahan masalah optimasi yang bekerja dengan membuat pilihan yang tampak paling baik pada  setiap langkah, dengan harapan rangkaian pilihan ini akan mengarah pada solusi  yang optimal secara keseluruhan. Algoritma ini bersifat serakah karena langsung mengambil pilihan terbaik saat itu tanpa mempertimbangkan konsekuensi di masa depan.
 
 Dalam konteks activity selection problem, algoritma greedy  secara efektif diterapkan dengan memilih aktivitas yang memiliki waktu selesai paling awal di setiap langkah.
 Pemilihan yang optimal ini didasarkan pada gagasan bahwa dengan menyelesaikan suatu aktivitas lebih awal, kita memaksimalkan sisa waktu yang tersedia untuk memilih aktivitas-aktivitas lain yang tidak bertabrakan. Strategi greedy ini terbukti menghasilkan solusi dengan jumlah aktivitas maksimal yang dapat dipilih tanpa adanya konflik waktu.
 
+
+
 ## Algoritma Activity Selection Problem
 Algoritma Activity Selection Problem menggunakan pendekatan greedy dengan memilik aktiviitas berdasarkan waktu selesai (finish time). Ide kuncinya adalah dengan memilih aktivitas yang selesai paling awal, kita memaksimalkan waktu tersisa untuk aktivitas lainnya.
 1.	Urutkan semua aktivitas berdasarkan waktu selesai  (finish time)
 2.	Pilih aktivitas pertama (aktivitasa dengan waktu selesai paling awal)
 3.	Untuk aktivitas berikutnya, pilih jika waktu mulainya lebih besar atau sama dengan waktu selesai aktivitas yang dipilih sebelumnya.
+
 
 
 ## Problem and Solution
@@ -37,6 +42,8 @@ c.	A5: Kompatibel, pada aktivitas A1 selesai pada detik ke 4, aktivita A4 selesa
 d.	A6: Tumpang tindih karena aktivitas A5 selesai pada detik ke 9, sementara aktivitas A6 dimulai pada detik ke 5.
 
 Sehingga, dapat kita simpulkan untuk solusi optimalnya yaitu A1, A4, dan A5.
+
+
 
 ## Implementasi
 ``` c++
@@ -90,6 +97,8 @@ int main() {
 Output:
 Aktivitas yang terpilih: A1 A4 A5
 
+
+
 ## Analisis Kompleksitas
 Kompleksitas waktu:
 1.	Pengurutan aktivitas berdasarkan waktu selesai, O(n log n)
@@ -101,6 +110,8 @@ Komplektsitas Ruang:
 1.	Menyimpan aktivitas, O(n)
 2.	Tidak memerlukan ruang tambahan yang siginifikan selain untuk menyimpan input dan output.
 Algoritma memerlukan ruang O(n) untuk menyimpan n aktivitas dalam array atau vektor. Selain itu, kita memerlukan ruang tambahan untuk menyimpan hasil (subset aktivitas yang dipilih) yang dalam kasus terburuk juga O(n). Operasi pengurutan mungkin memerlukan ruang tambahan O(n log n) atau O(n), tergantung pada implementasi algoritma pengurutan yang digunakan.
+
+
 
 ## Aplikasi Dunia Nyata
 Penjadwalan dan Fasilitas: jadwal ruang kelas, meeting, lab, olahraga
