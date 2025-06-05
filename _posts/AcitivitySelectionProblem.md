@@ -39,7 +39,7 @@ d.	A6: Tumpang tindih karena aktivitas A5 selesai pada detik ke 9, sementara akt
 Sehingga, dapat kita simpulkan untuk solusi optimalnya yaitu A1, A4, dan A5.
 
 *Implementasi*
-''' c++
+``` c++
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -85,7 +85,7 @@ int main() {
 
     return 0;
 }
-'''
+```
 
 Output:
 Aktivitas yang terpilih: A1 A4 A5
