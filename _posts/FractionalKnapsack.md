@@ -122,9 +122,9 @@ Jika kamu bisa membawa 30kg barang, barang priotitas adalah:
 --------------------------------------
 | Barang     | Berat | Nilai Penting |
 --------------------------------------
-| Laptop     | 10    | 300           |
-| Buku Paket | 20    | 200           |
-| Baju       | 30    | 180           |
+|Laptop      |   10  |     300       |
+|Buku Paket  |   20  |     200       |
+|Baju        |   30  |     180       |
 --------------------------------------
 
 ``` c++
