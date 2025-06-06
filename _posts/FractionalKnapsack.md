@@ -68,11 +68,13 @@ Langkah Manual:
 
 
 B. Pendaki punya tas berkapasitas 50kg, di basecamp tersedia:
+--------------------------------------------
 | Barang  | Berat(kg) | Nilai (pentingnya) |
 --------------------------------------------
 | Makanan | 10        | 60                 |
 | Selimut | 20        | 100                |
 | Kamera  | 30        | 120                |
+--------------------------------------------
 
 Solusi:
 1. Hitung value/weight
@@ -87,12 +89,15 @@ Solusi:
 
 3. Total nilai: 60 + 100 + 80 = 240
 
+
 C. Pemulung bisa bawa 15kg logam. Di tempat sampah ada:
+----------------------------------
 | Logam     | Berat | Nilai Jual |
---------------------------------
+----------------------------------
 | Tembaga   |   5   |    100     |
 | Aluminium | 10    |    60      |
 | Besi      | 20    |    80      |
+----------------------------------
 
 Solusi:
 1. Hitung value/weight:
@@ -111,13 +116,16 @@ Solusi:
 4. Total Nilai
     100 + 60 = 160
 
+
 ## Implementasi Kode
 Jika kamu bisa membawa 30kg barang, barang priotitas adalah:
+--------------------------------------
 | Barang     | Berat | Nilai Penting |
 --------------------------------------
 | Laptop     | 10    | 300           |
 | Buku Paket | 20    | 200           |
 | Baju       | 30    | 180           |
+--------------------------------------
 
 ``` c++
 // Fungsi comparator untuk mengurutkan berdasarkan rasio terbesar
@@ -162,3 +170,5 @@ int main() {
     return 0;
 }
 ```
+
+Total nilai = 500
