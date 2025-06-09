@@ -21,41 +21,42 @@ Frekuensi:
     B = 2
     C = 3
     D = 4
+
 Bangun pohon Huffman berdasarkan frekuensi.
 Hasil kode mungkin:
     D = 0, C = 10, B = 110, A = 111
+   
 Output terkompresi: lebih pendek dari representasi asli.
 
 ## Simulasi
 1.  PESAN - BCCABBDDAECCBBAEDDCC
+    
     PANJANG = 20
 
 Pada Komponen Elektronik, alfabet dikirim melalui kode ASCII. Kode ASCII untuk huruf kapital A adalah 65, dan kita membutuhkan 8 bit biner untuk mengonversi 65.
 - Untuk 1  huruf, kita membutuhkan 8 bit
 - Untuk 20 huruf, kita membutuhkan 8 x 20 = 100 bit
 
-|-------|------------|
 | Huruf | Kode ASCII |
 |-------|------------|
 | A     | 65         |
 | B     | 66         |
 | C     | 67         |
 | D     | 68         |
-|-------|------------|
+
 
 2. PESAN - BCCABBDDAECCBBAEDDCC
+
 Langkah pertama, urutkan jumlah kemunculan huruf dari yang terkecil ke yang terbesar, kemudian ambil dua yang paling kecil dan gabungkan keduanya. Sekarang, node akar untuk huruf E dan A adalah 5.
 
-|-------|--------|
 | Huruf | Jumlah |
 |-------|--------|
 | A     | 3      |
 | B     | 5      |
-|-------|--------|
+
 
 3. PESAN - BCCABBDDAECCBBAEDDCC
 
-|-------|--------|--------------|
 | Huruf | Jumlah | Huffman Code |
 |-------|--------|--------------|
 | A     | 3      | 1            |
@@ -63,7 +64,7 @@ Langkah pertama, urutkan jumlah kemunculan huruf dari yang terkecil ke yang terb
 | C     | 6      | 11           |
 | D     | 4      | 1            |
 | E     | 2      | 0            |
-|-------|--------|--------------|
+
 Total = 45 bit
 
 Awalnya kita membutuhkan 160 bit, namun sekarang kita hanya membutuhkan 45 bit. Dengan demikian, kita telah mengompresi biaya dan ukuran data.
@@ -83,16 +84,22 @@ Huffman(C)
 
 Kompleksitas Waktu:
 O(n log n)
+
 (N = Jumlah Karakter Unik)
 
 ## Kelebihan dan Kekurangan
 Kelebihan:
+
 ✅ Lossless: tidak ada data yang hilang.
+
 ✅ Efisien untuk data dengan distribusi karakter tidak merata.
+
 ✅ Digunakan luas di sistem kompresi file.
 
 Kekurangan:
+
 ❌ Kurang optimal jika frekuensi karakter merata.
+
 ❌ Memerlukan tabel kode untuk dekompresi.
 
 

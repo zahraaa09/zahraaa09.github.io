@@ -37,9 +37,9 @@ Algoritma greedy seringkali sangat sederhana untuk diimplementasikan dan memilik
 Algoritma greedy sangat efektif dan sering digunakan untuk masalah-masalah tertentu di mana pilihan optimal lokal memang mengarah ke solusi optimal global. Kelemahan utama algoritma greedy adalah tidak selalu menghasilkan solusi optimal global untuk semua jenis masalah. Ada masalah di mana pilihan terbaik saat ini justru menghalangi tercapainya solusi terbaik secara keseluruhan.
 
 ## Permasalahan
-A. Diketahui ada 4 item dengan data berikut:
+1. Diketahui ada 4 item dengan data berikut:
 | Item | Nilai (Value) | Berat |
-|------------------------------|
+|------|---------------|-------|
 | A    | 50            | 10    |
 | B    | 60            | 20    |
 | C    | 140           | 40    |
@@ -63,17 +63,15 @@ Langkah Manual:
     Ambil C (40kg, nilai 140) -> sisa 0
     B dan D tidak diambil
 
-# Total nilai maksimum = 50 + 140 = 190
+Total nilai maksimum = 50 + 140 = 190
 
 
-B. Pendaki punya tas berkapasitas 50kg, di basecamp tersedia:
---------------------------------------------
+2. Pendaki punya tas berkapasitas 50kg, di basecamp tersedia:
 | Barang  | Berat(kg) | Nilai (pentingnya) |
 |---------|-----------|--------------------|
 | Makanan | 10        | 60                 |
 | Selimut | 20        | 100                |
 | Kamera  | 30        | 120                |
---------------------------------------------
 
 Solusi:
 1. Hitung value/weight
@@ -89,14 +87,12 @@ Solusi:
 3. Total nilai: 60 + 100 + 80 = 240
 
 
-C. Pemulung bisa bawa 15kg logam. Di tempat sampah ada:
-----------------------------------
+3. Pemulung bisa bawa 15kg logam. Di tempat sampah ada:
 | Logam     | Berat | Nilai Jual |
 |-----------|-------|------------|
 | Tembaga   | 5     |    100     |
 | Aluminium | 10    |    60      |
 | Besi      | 20    |    80      |
-----------------------------------
 
 Solusi:
 1. Hitung value/weight:
@@ -117,14 +113,14 @@ Solusi:
 
 
 ## Implementasi Kode
+
 Jika kamu bisa membawa 30kg barang, barang priotitas adalah:
---------------------------------------
 | Barang     | Berat | Nilai Penting |
 |------------|-------|---------------|
 |Laptop      |   10  |     300       |
 |Buku Paket  |   20  |     200       |
 |Baju        |   30  |     180       |
---------------------------------------
+
 
 ``` c++
 // Fungsi comparator untuk mengurutkan berdasarkan rasio terbesar
