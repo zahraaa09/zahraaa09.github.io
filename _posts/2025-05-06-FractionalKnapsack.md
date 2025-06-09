@@ -1,3 +1,11 @@
+---
+title: "Fractional Knapsack"
+date: 2025-05-06 10:00:00 +0700
+categories: [algoritma]
+tags: [greedy, cpp, fractional-knapsack]
+---
+
+
 ## Definisi
 Fractional Knapsack adalah sebuah permasalahan optimisasi dalam bidang algoritma dan struktur data, di mana tujuannya adalah untuk memaksimalkan nilai total barang yang dimasukkan ke dalam sebuah knapsack (tas) dengan kapasitas tertentu, dengan kemungkinan mengambil sebagian (fraksi) dari barang.
 

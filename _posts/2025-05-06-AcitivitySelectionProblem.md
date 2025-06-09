@@ -28,7 +28,7 @@ Algoritma Activity Selection Problem menggunakan pendekatan greedy dengan memili
 
 
 ## Problem and Solution
--------------------------------------------
+```markdown
 | Aktivitas |	Mulai (s)	| Selesai (f) |
 |-----------|---------------|-------------|
 |A1	        |      1        |      4      |
@@ -37,7 +37,7 @@ Algoritma Activity Selection Problem menggunakan pendekatan greedy dengan memili
 |A4	        |      5        |      7      |
 |A5	        |      8        |      9      |
 |A6	        |      5        |      9      |
--------------------------------------------
+
 
 Langkah Solusinya:
 1.	Urutkan berdasarkan waktu selesai
