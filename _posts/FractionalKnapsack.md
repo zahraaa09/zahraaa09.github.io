@@ -38,6 +38,7 @@ Algoritma greedy sangat efektif dan sering digunakan untuk masalah-masalah terte
 
 ## Permasalahan
 1. Diketahui ada 4 item dengan data berikut:
+
 | Item | Nilai (Value) | Berat |
 |------|---------------|-------|
 | A    | 50            | 10    |
@@ -67,6 +68,7 @@ Total nilai maksimum = 50 + 140 = 190
 
 
 2. Pendaki punya tas berkapasitas 50kg, di basecamp tersedia:
+
 | Barang  | Berat(kg) | Nilai (pentingnya) |
 |---------|-----------|--------------------|
 | Makanan | 10        | 60                 |
@@ -88,11 +90,12 @@ Solusi:
 
 
 3. Pemulung bisa bawa 15kg logam. Di tempat sampah ada:
+
 | Logam     | Berat | Nilai Jual |
 |-----------|-------|------------|
-| Tembaga   | 5     |    100     |
-| Aluminium | 10    |    60      |
-| Besi      | 20    |    80      |
+|Tembaga    |5      |    100     |
+|Aluminium  |10     |    60      |
+|Besi       |20     |    80      |
 
 Solusi:
 1. Hitung value/weight:
