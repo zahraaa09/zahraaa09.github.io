@@ -43,10 +43,10 @@ Langkah Solusinya:
 Berdasarkan waktu selesainya, kita dapat mengurutkannya A1, A2, A3, A4, A5, A6.
 2.	Pilih aktivitas yang selesai paling awal, yaitu A1.
 3.	Iterasi:
-a.	A2, A3: Tumpah tindih karena A2 selesai detik ke 5 sementara A3 dimulai pada detik ke 0.
-b.	A4: Kompatibel, pada aktivitas A1 selesai pada detik ke 4 sementara aktivitas A4 dimulai pada detik ke 5.
-c.	A5: Kompatibel, pada aktivitas A1 selesai pada detik ke 4, aktivita A4 selesai pada detik 7, dan aktivitas A5 dimulai  pada detik 8.
-d.	A6: Tumpang tindih karena aktivitas A5 selesai pada detik ke 9, sementara aktivitas A6 dimulai pada detik ke 5.
+    - A2, A3: Tumpah tindih karena A2 selesai detik ke 5 sementara A3 dimulai pada detik ke 0.
+    - A4: Kompatibel, pada aktivitas A1 selesai pada detik ke 4 sementara aktivitas A4 dimulai pada detik ke 5.
+    - A5: Kompatibel, pada aktivitas A1 selesai pada detik ke 4, aktivita A4 selesai pada detik 7, dan aktivitas A5 dimulai  pada detik 8.
+    - A6: Tumpang tindih karena aktivitas A5 selesai pada detik ke 9, sementara aktivitas A6 dimulai pada detik ke 5.
 
 Sehingga, dapat kita simpulkan untuk solusi optimalnya yaitu A1, A4, dan A5.
 
@@ -121,7 +121,7 @@ Algoritma memerlukan ruang O(n) untuk menyimpan n aktivitas dalam array atau vek
 
 
 ## Aplikasi Dunia Nyata
-Penjadwalan dan Fasilitas: jadwal ruang kelas, meeting, lab, olahraga
-Sistem Operasi: jadwal proses CPU, alokasi memori
-Logistik: jadwal pengiriman dan rute kendaraan
-Telekomunikasi: alokasi bandwidth dan jadwal transmisi data
+- Penjadwalan dan Fasilitas: jadwal ruang kelas, meeting, lab, olahraga
+- Sistem Operasi: jadwal proses CPU, alokasi memori
+- Logistik: jadwal pengiriman dan rute kendaraan
+- Telekomunikasi: alokasi bandwidth dan jadwal transmisi data

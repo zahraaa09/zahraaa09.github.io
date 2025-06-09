@@ -59,18 +59,18 @@ Pertanyaan: Berapa nilai maksimum yang bisa dibawa dalam tas?
 
 Langkah Manual:
 1. Hitung rasio value/weight
-    A = 5.0
-    B = 3.0
-    C = 3.5
-    D = 2.0
+    - A = 5.0
+    - B = 3.0
+    - C = 3.5
+    - D = 2.0
 
 2. Urutkan
-    A (5.0), C (3.5), B (3.0), D (2.0)
+    - A (5.0), C (3.5), B (3.0), D (2.0)
 
 3. Isi tas berdasarkan kapasitas
-    Ambil A (10kg, nilai 50) -> sisa 40
-    Ambil C (40kg, nilai 140) -> sisa 0
-    B dan D tidak diambil
+    - Ambil A (10kg, nilai 50) -> sisa 40
+    - Ambil C (40kg, nilai 140) -> sisa 0
+    - B dan D tidak diambil
 
 Total nilai maksimum = 50 + 140 = 190
 
@@ -85,14 +85,14 @@ Total nilai maksimum = 50 + 140 = 190
 
 Solusi:
 1. Hitung value/weight
-    Makanan: 60/10 = 6
-    Selimut: 100/20 = 5
-    Kamera: 120/30 = 4
+    - Makanan: 60/10 = 6
+    - Selimut: 100/20 = 5
+    - Kamera: 120/30 = 4
 
 2. Urutkan dan pilih
-    Ambil semua makanan (10kg) -> Nilai = 60
-    Ambil semua selimut (20kg) -> Nilai = 100
-    Sisa Kapasitas = 20kg -> Ambil 2/3 kamera -> Nilai = 120 x 20/30 = 80
+    - Ambil semua makanan (10kg) -> Nilai = 60
+    - Ambil semua selimut (20kg) -> Nilai = 100
+    - Sisa Kapasitas = 20kg -> Ambil 2/3 kamera -> Nilai = 120 x 20/30 = 80
 
 3. Total nilai: 60 + 100 + 80 = 240
 
@@ -107,25 +107,26 @@ Solusi:
 
 Solusi:
 1. Hitung value/weight:
-    Tembaga: 100/5 = 20
-    Aluminium: 60/10 = 6
-    Besi: 80/20 = 4
+    - Tembaga: 100/5 = 20
+    - Aluminium: 60/10 = 6
+    - Besi: 80/20 = 4
 
 2. Urutan
-    Tembaga ->  Aluminium -> Besi
+    - Tembaga ->  Aluminium -> Besi
 
 3. Pilih
-    Tembaga (5kg) -> Nilai = 100
-    Aluminium (10kg) -> Nilai = 60
-    Tas penuh
+    - Tembaga (5kg) -> Nilai = 100
+    - Aluminium (10kg) -> Nilai = 60
+    - Tas penuh
 
 4. Total Nilai
-    100 + 60 = 160
+    - 100 + 60 = 160
 
 
 ## Implementasi Kode
 
 Jika kamu bisa membawa 30kg barang, barang priotitas adalah:
+
 | Barang     | Berat | Nilai Penting |
 |------------|-------|---------------|
 |Laptop      |   10  |     300       |
