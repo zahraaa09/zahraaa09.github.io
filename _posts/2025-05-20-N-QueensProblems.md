@@ -1,3 +1,10 @@
+---
+title: "N-Queens Problems"
+date: 2025-05-20
+tags: [N-Queens, Algoritma, Backtracking, C++, Pemrograman, AI]
+categories: [Algoritma, Komputer]
+---
+
 ## Definisi Masalah
 Masalah N-Queens adalah sebuah permasalahan klasik dalam bidang ilmu komputer dan matematika kombinatorik yang melibatkan penempatan N buah ratu catur pada sebuah papan catur berukuran N × N, sedemikian rupa sehingga tidak ada dua ratu yang saling menyerang. Dalam aturan catur, seorang ratu dapat bergerak secara horizontal (baris), vertikal (kolom), dan diagonal. Oleh karena itu, solusi dari masalah ini harus memastikan bahwa tidak ada dua ratu yang berada pada baris, kolom, atau diagonal yang sama. Contoh paling terkenal adalah masalah 8-Queens, yaitu menempatkan 8 ratu di papan 8x8.
 

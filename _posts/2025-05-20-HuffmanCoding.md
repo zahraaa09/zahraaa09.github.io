@@ -1,3 +1,11 @@
+---
+title: "Huffman Coding: Konsep, Simulasi, dan Implementasi"
+date: 2025-05-20
+tags: [Huffman, Kompresi, Algoritma, Struktur Data]
+categories: [Algoritma, Komputer]
+---
+
+
 ## Pengertian dan Konsep Dasar
 Huffman Coding adalah algoritma kompresi data lossless yang dikembanhkan oleh David A. Huffman pada tahun 1952. Huffman Coding digunakan untuk mengurangi ukuran data dengan cara mengganti simbol sering muncul dengan kode bit lebih pendek. Umumnya digunakan dalam format kompresi seperti ZIP, JPEG, dan MP3.
 
@@ -16,11 +24,12 @@ Huffman Coding bekerja berdasarkan:
 
 ## Contoh Permasalahan
 String = “ABBCCCDDDD”
+
 Frekuensi:
-    A = 1
-    B = 2
-    C = 3
-    D = 4
+    - A = 1
+    - B = 2
+    - C = 3
+    - D = 4
 
 Bangun pohon Huffman berdasarkan frekuensi.
 Hasil kode mungkin:
