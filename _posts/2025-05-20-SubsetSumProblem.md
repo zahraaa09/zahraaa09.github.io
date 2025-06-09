@@ -1,3 +1,11 @@
+---
+title: "Subset Sum Problem"
+date: 2025-05-20
+tags: [algoritma, dynamic programming, NP-complete, rekursi, subset sum]
+categories: [pemrograman, algoritma dan struktur data]
+---
+
+
 ## Definisi dan Konsep
 Subset Sum Problem adalah masalah klasik dalam ilmu komputer yang termasuk dalam kategori NP-Complete. Diberikan sebuah himpunan bilangan bulat dan sebuah nilai target, tugasnya adalah menentukan apakah ada subset dari himpunan tersebut yang jumlah elemennya sama dengan nilai target.
 
@@ -99,7 +107,7 @@ Cek semua subset secara eksplisit.
 
 ❌ Tidak efisien untuk array besar.
 
-🧠Dynamic Programming Approach
+🧠 Dynamic Programming Approach
 1. Memoization (Top-Down DP)
     - Kombinasi rekursi + penyimpanan hasil submasalah.
     - Gunakan struktur dp[n][sum] → cache hasil.
