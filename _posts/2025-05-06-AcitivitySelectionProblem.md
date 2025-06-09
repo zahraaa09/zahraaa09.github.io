@@ -26,9 +26,8 @@ Algoritma Activity Selection Problem menggunakan pendekatan greedy dengan memili
 3.	Untuk aktivitas berikutnya, pilih jika waktu mulainya lebih besar atau sama dengan waktu selesai aktivitas yang dipilih sebelumnya.
 
 
-
 ## Problem and Solution
-```markdown
+
 | Aktivitas |	Mulai (s)	| Selesai (f) |
 |-----------|---------------|-------------|
 |A1	        |      1        |      4      |

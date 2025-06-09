@@ -1,6 +1,6 @@
 ---
 title: "Fractional Knapsack"
-date: 2025-05-06 10:00:00 +0700
+date: 2025-05-06 11:00:00 +0700
 categories: [algoritma]
 tags: [greedy, cpp, fractional-knapsack]
 ---
