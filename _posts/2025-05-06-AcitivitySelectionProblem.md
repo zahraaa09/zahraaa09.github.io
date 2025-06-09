@@ -1,3 +1,11 @@
+---
+title: "Activity Selection Problem"
+date: 2025-05-06 10:00:00 +0700
+categories: [algoritma, greedy]
+tags: [activity-selection, greedy, cpp]
+---
+
+
 ## Pendahuluan dan Definisi Masalah
 Activity selection problem merupakan masalah optimasi klasik dalam ilmu komputer. Kita diberikan sejumlah aktivitas yang masing-masing didefinisikan dengan waktu mulai dan waktu selesai. Dua aktivitas dikatakan kompatibel jika mereka tidak tumpang tindih secara waktu, artinya salah satu aktivitas selesai sebelum aktivitas lainnya dimulai.
 
