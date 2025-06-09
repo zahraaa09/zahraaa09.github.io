@@ -1,5 +1,5 @@
 ---
-title: "Huffman Coding: Konsep, Simulasi, dan Implementasi"
+title: "Huffman Coding"
 date: 2025-05-20
 tags: [Huffman, Kompresi, Algoritma, Struktur Data]
 categories: [Algoritma, Komputer]
@@ -42,41 +42,41 @@ Output terkompresi: lebih pendek dari representasi asli.
     
     PANJANG = 20
 
-Pada Komponen Elektronik, alfabet dikirim melalui kode ASCII. Kode ASCII untuk huruf kapital A adalah 65, dan kita membutuhkan 8 bit biner untuk mengonversi 65.
-- Untuk 1  huruf, kita membutuhkan 8 bit
-- Untuk 20 huruf, kita membutuhkan 8 x 20 = 100 bit
+    Pada Komponen Elektronik, alfabet dikirim melalui kode ASCII. Kode ASCII untuk huruf kapital A adalah 65, dan kita membutuhkan 8 bit biner untuk mengonversi 65.
+    - Untuk 1  huruf, kita membutuhkan 8 bit
+    - Untuk 20 huruf, kita membutuhkan 8 x 20 = 100 bit
 
-| Huruf | Kode ASCII |
-|-------|------------|
-| A     | 65         |
-| B     | 66         |
-| C     | 67         |
-| D     | 68         |
+    | Huruf | Kode ASCII |
+    |-------|------------|
+    | A     | 65         |
+    | B     | 66         |
+    | C     | 67         |
+    | D     | 68         |
 
 
 2. PESAN - BCCABBDDAECCBBAEDDCC
 
-Langkah pertama, urutkan jumlah kemunculan huruf dari yang terkecil ke yang terbesar, kemudian ambil dua yang paling kecil dan gabungkan keduanya. Sekarang, node akar untuk huruf E dan A adalah 5.
+    Langkah pertama, urutkan jumlah kemunculan huruf dari yang terkecil ke yang terbesar, kemudian ambil dua yang paling kecil dan gabungkan keduanya. Sekarang, node akar untuk huruf E dan A adalah 5.
 
-| Huruf | Jumlah |
-|-------|--------|
-| A     | 3      |
-| B     | 5      |
+    | Huruf | Jumlah |
+    |-------|--------|
+    | A     | 3      |
+    | B     | 5      |
 
 
 3. PESAN - BCCABBDDAECCBBAEDDCC
 
-| Huruf | Jumlah | Huffman Code |
-|-------|--------|--------------|
-| A     | 3      | 1            |
-| B     | 5      | 10           |
-| C     | 6      | 11           |
-| D     | 4      | 1            |
-| E     | 2      | 0            |
+    | Huruf | Jumlah | Huffman Code |
+    |-------|--------|--------------|
+    | A     | 3      | 1            |
+    | B     | 5      | 10           |
+    | C     | 6      | 11           |
+    | D     | 4      | 1            |
+    | E     | 2      | 0            |
 
-Total = 45 bit
+    Total = 45 bit
 
-Awalnya kita membutuhkan 160 bit, namun sekarang kita hanya membutuhkan 45 bit. Dengan demikian, kita telah mengompresi biaya dan ukuran data.
+    Awalnya kita membutuhkan 160 bit, namun sekarang kita hanya membutuhkan 45 bit. Dengan demikian, kita telah mengompresi biaya dan ukuran data.
 
 ## Implementasi Kode
 ```  pseudocode
