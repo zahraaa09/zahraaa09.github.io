@@ -17,10 +17,8 @@ Cara Kerja Dijkstra's Algorithm:
 
 ## Contoh Permasalahan
 Carilah nilai dan lintasan terpendek dari simpul A ke F!
-
-![Graf](/assets/images/image-1.png)
-
-![Tabel](/assets/images image-3.png)
+<img src="/assets/image/image-1.png" alt="Soal algoritma dijkstra" width="600">
+<img src="/assets/image/image-3.png" alt="Tabel algoritma dijkstra" width="600">
 
 Lintasan terpendek adalah ABEF/ABDF dengan nilai 4.
 
