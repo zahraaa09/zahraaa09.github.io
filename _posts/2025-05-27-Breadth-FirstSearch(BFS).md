@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Breadth-First Search (BFS)"
 date: 2025-05-27
 tags: [BFS, algoritma graf, pencarian jalur, antrian, traversal graf]

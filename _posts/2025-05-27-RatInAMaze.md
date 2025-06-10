@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Rat In A Maze"
 date: 2025-05-27
 tags: [backtracking, algoritma, rekursi, maze solving, pathfinding]
