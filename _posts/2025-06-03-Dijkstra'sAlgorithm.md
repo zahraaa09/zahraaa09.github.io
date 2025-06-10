@@ -17,9 +17,9 @@ Cara Kerja Dijkstra's Algorithm:
 
 ## Contoh Permasalahan
 Carilah nilai dan lintasan terpendek dari simpul A ke F!
-![alt text](image-1.png)
+![alt text](./image-1.png)
 
-![alt text](image-3.png)
+![alt text](./image-3.png)
 Lintasan terpendek adalah ABEF/ABDF dengan nilai 4.
 
 ## Implementasi Code
