@@ -30,7 +30,7 @@ Konsep Dasar dari BFS, yaitu:
 Ulangi sampai simpul tujuan ditemukan atau queue sudah kosong.
 
 ## Cara Kerja BFS
-![alt text](image.png)
+<img src="/assets/image/image.png" alt="Soal algoritma dijkstra" width="400">
 
 | Queue      | Visited   | Simpul Aktif |
 |------------|-----------|--------------|
